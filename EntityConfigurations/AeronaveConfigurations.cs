@@ -26,6 +26,9 @@ public class AeronaveConfiguration : IEntityTypeConfiguration<Aeronave>
          builder.Property(a=>a.Codigo)
                  .IsRequired()
                  .HasMaxLength(25);
+         builder.Property(a=>a.Celebridade)
+                .IsRequired()
+                .HasMaxLength(80);
 
           //Relacionamentos
           builder.HasMany(a=>a.Manutencoes)

@@ -2188,23 +2188,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dev\\.nuget\\packages\\": {},
+    "C:\\Users\\Professor\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dev\\desktop\\VoeAirlines\\VoeAirlines.csproj",
+      "projectUniqueName": "C:\\Users\\Professor\\desktop\\cci-model-concluido\\VoeAirlines.csproj",
       "projectName": "VoeAirlines",
-      "projectPath": "C:\\Users\\dev\\desktop\\VoeAirlines\\VoeAirlines.csproj",
-      "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dev\\desktop\\VoeAirlines\\obj\\",
+      "projectPath": "C:\\Users\\Professor\\desktop\\cci-model-concluido\\VoeAirlines.csproj",
+      "packagesPath": "C:\\Users\\Professor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Professor\\desktop\\cci-model-concluido\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Professor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

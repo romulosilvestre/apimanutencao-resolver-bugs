@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VoeAirlines.Contexts;
 
@@ -11,9 +12,10 @@ using VoeAirlines.Contexts;
 namespace VoeAirlines.Migrations
 {
     [DbContext(typeof(VoeAirlinesContext))]
-    partial class VoeAirlinesContextModelSnapshot : ModelSnapshot
+    [Migration("20220825122542_AdicioneiCelebridade")]
+    partial class AdicioneiCelebridade
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -32,8 +34,8 @@ namespace VoeAirlines.Migrations
 
                     b.Property<string>("Celebridade")
                         .IsRequired()
-                        .HasMaxLength(80)
-                        .HasColumnType("nvarchar(80)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<string>("Codigo")
                         .IsRequired()
