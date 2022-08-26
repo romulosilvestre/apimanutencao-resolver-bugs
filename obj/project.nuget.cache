@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UP28qlAYTeehEwJ0MNOYG79R151dW44YvIke2kGtPO5i3+EjiTHeo5GKWIzETbn3i99WeB/XUjQJx2ZFXGz9+A==",
+  "dgSpecHash": "vnB+0yD+LjuUNuqczbyEzbsHwuPqgzb3TAPdd2oHMTG48DMOQ+vi7dFpIpCJutTsjijItFHALBQ1DOJJ+VpRrg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Professor\\Desktop\\cci-model-concluido\\VoeAirlines.csproj",
+  "projectFilePath": "C:\\Users\\Professor\\Desktop\\cci-model-concluido\\VoeAirlines.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Professor\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Professor\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

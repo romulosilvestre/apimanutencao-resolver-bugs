@@ -53,20 +53,29 @@ public class AeronaveService{
         return null;
     }
  
-    public void Excluir(int id){
+    public void ExcluirAeronave(int id){
         var aeronave = _context.Aeronaves.Find(id);
         if(aeronave != null){
             _context.Remove(aeronave);
             _context.SaveChanges();
         }
     }
-   /* Paramos aqui*/
-    /*public DetalhesAeronaveViewModel? AtualizarAeronave(AtualizarAeronaveViewModel dados){
-        
-        _context.Update(aeronave);
-        return null;
+  
+    public DetalhesAeronaveViewModel? AtualizarAeronave(AtualizarAeronaveViewModel dados){
+              
+              var aeronave = _context.Aeronaves.Find(dados.Id);
+              if(aeronave != null){
+                  aeronave.Fabricante = dados.Fabricante;
+                  aeronave.Modelo = dados.Modelo;
+                  aeronave.Codigo = dados.Codigo;
+                  _context.Update(aeronave);
+                  _context.SaveChanges();
+                  return new DetalhesAeronaveViewModel(aeronave.Id,aeronave.Fabricante,aeronave.Modelo,aeronave.Codigo);
 
-    }*/
+              }
+              return null; 
+     
+    }
 
     
 
